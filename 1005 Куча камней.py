@@ -36,8 +36,7 @@ for i in range(X-1, -1, -1):
     if True in P[i]:
         print(K - 2*i)
         break
-       
-
+    
 for i in range(0, (K//2+1)):
     print(str(i) + str(P[i]) + '\n')
         
